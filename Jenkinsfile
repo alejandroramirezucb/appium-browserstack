@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     parameters {
-        string(name: 'BROWSERSTACK_APP', defaultValue: 'bs://578f9832d4644271a3aa3e00dc27f7c5690898bf', description: 'App id de BrowserStack (bs://...)')
+        string(name: 'BROWSERSTACK_APP', defaultValue: 'bs://385e5b3c00023d0b1cfc5be466aa3a074d81e1ce', description: 'App id de BrowserStack (bs://...)')
     }
 
     stages {

@@ -16,8 +16,8 @@ exports.config = {
         'appium:automationName': 'UiAutomator2',
         'appium:app': process.env.BROWSERSTACK_APP,
         'bstack:options': {
-            deviceName: 'Google Pixel 10',
-            osVersion: '16.0',
+            deviceName: 'Google Pixel 7',
+            osVersion: '13.0',
             projectName: 'Proyecto QA',
             buildName: 'Build Alarmas',
             sessionName: 'Prueba APK Alarmas',

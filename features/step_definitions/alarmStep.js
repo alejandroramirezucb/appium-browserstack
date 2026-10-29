@@ -22,7 +22,7 @@ Then('La alarma a las {string}:{string} debería estar visible', async (hora, mi
 
 When('Elimino la alarma a las {string}:{string}', async (hora, minuto) => {
     const tiempo = `${hora}:${minuto}`;
-    await AlarmPage.deleteAlarm(tiempo,3);
+    await AlarmPage.deleteAlarm(tiempo);
 });
 
 Then('La alarma a las {string}:{string} no debería existir', async (hora, minuto) => {
